@@ -3,10 +3,6 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 
-
-
-
-
 module.exports = () => {
   return {
     mode: 'development',
@@ -28,8 +24,8 @@ module.exports = () => {
       
       // Injects service worker
       new InjectManifest({
-        swSrc: "./src-sw.js",
-        swDest: "src-sw.js",
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
       }),
       // Creates our manifest
       new WebpackPwaManifest({
@@ -41,7 +37,7 @@ module.exports = () => {
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "./",
-        publiPath: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
