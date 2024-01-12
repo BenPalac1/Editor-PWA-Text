@@ -70,6 +70,8 @@ THEN I should have proper build scripts for a webpack application
 
 ## Video Showing App Functionality
 
+Video showing app rendering and functionality:
+https://github.com/BenPalac1/Editor-PWA-Text/assets/139652929/59da935f-08bc-49f2-986f-a0fbc94103f1
 
 
 ## Screenshots
