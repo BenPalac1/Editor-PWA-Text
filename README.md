@@ -2,10 +2,10 @@
 Editor-PWA-Text
 
 ## Description
-Editor-PWA-Text is text editor that runs in the browser. A single-page application that lets the user type tex and save it as well as allow edits. 
+Editor-PWA-Text is a text editor that runs in the browser. A single-page application that lets the user type text and save it as well as allow edits. 
 The app also has a button that allows users to download to their desktop and functions offline.
 
-As part of the UNCC Bootcamp this app was mean to tbe deployed Render but I had issues getting it to work even with the aid of  Render Deployment Guide.
+As part of the UNCC Bootcamp this app was meant to be deployed on Render but I had issues getting it to work even with the aid of  Render Deployment Guide.
 The app still functions if you clone the repo and run the usage instructions listed below in this README.md.
 
 ## User Story
@@ -84,14 +84,14 @@ Screenshot showing the apps IndexedDB storage:
 
 
 ## Usage Instructions
-  1.) cd into the main directory and run an npm i.  This will run npm for the mian, client side, and server side 
+  1.) cd into the main directory and run an npm i.  This will run npm install for the main, client side, and server side 
       and create your package-lock.json files for all three 
 
   2.) Next run an npm start and the app should start and run on port 3000
 
   3.) Open a browser and go to http://localhost:3000/  The app should render. 
-      Feel free to test by typing anthing and then clicking anywhere on the page to save what you typed. 
-      Refresh the page to see :)
+      Feel free to test by typing anything and then clicking anywhere on the page to save what you typed. 
+      Refresh the page to see that your work has saved :)
       
   4.) Click the Install button to download the app to your desktop. Data still saves locally even if you kill the server on the vsCode side.
 
