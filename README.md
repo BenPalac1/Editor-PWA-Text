@@ -8,6 +8,10 @@ The app also has a button that allows users to download to their desktop and fun
 As part of the UNCC Bootcamp this app was meant to be deployed on Render but I had issues getting it to work even with the aid of  Render Deployment Guide.
 The app still functions if you clone the repo and run the usage instructions listed below in this README.md.
 
+Screenshot  of failed deployment to Render:
+![no render deploy](https://github.com/BenPalac1/Editor-PWA-Text/assets/139652929/25428498-414b-4b3a-ac7e-a2db88d67f21)
+
+
 ## User Story
 AS A developer
 
